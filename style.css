@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('weather.webp');
+    scroll-behavior: smooth;
+}
+.container {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    display: block;
+    width: 30%;
+    height: 300px;
+    margin: 0px auto;
+    background: transparent;
+    border-style: none;
+    border: 1px solid grey;
+    border-radius: 11px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+h1 {
+    text-align: center;
+    margin: 38px auto;
+    color: paleturquoise;
+}
+.entireresult {
+    margin: 5px 28px;
+    display: block;
+    justify-content: center;
+    gap: 8px;
+}
+input#search {
+    margin: 28px 110px;
+    outline: none;
+    background: transparent;
+    border-style: none;
+    border-bottom: 1px solid grey;
+    font-size: 16px;
+    caret-color: springgreen;
+}
+img.cloudImg {
+    float: right;
+    position: relative;
+    bottom: 10px;
+    left: 18px;
+}
+p.temperature {
+    float: right;
+    position: relative;
+    bottom: 48px;
+    right: 38px;
+    font-size: 34px;
+}
+p.city {
+    font-size: 27px;
+    font-weight: 600;
+    color: slategrey;
+}
+p.pressure,p.wind {
+    margin: 7px auto;
+    color: steelblue;
+    font-size: 17px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 60px 0px;
+}
+p.description,p.visibility {
+    font-size: 22px;
+    color: steelblue;
+}
+i.fa-solid.fa-xmark {
+    float: right;
+    position: relative;
+    bottom: 50px;
+    right: 73px;
+    font-size: 19px;
+    color: springgreen;
+    cursor: pointer;
+}
